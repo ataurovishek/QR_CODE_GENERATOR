@@ -1,7 +1,7 @@
 
 const button = document.getElementById('Generate-btn')
 
-const generateCode = (e) => {
+const generateCode = () => {
 
     const url = document.getElementById('link-input').value;
     const Qr_Code = document.getElementById('Qr_Code');
